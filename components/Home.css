@@ -1,0 +1,18 @@
+.col-md-6 {
+    /* Adjusting padding to add space around the image */
+    padding: 10px;
+  }
+  
+  .col-md-6 img {
+    /* Setting the image width to 100% to ensure responsiveness */
+    width: 100%;
+    /* Adding some margin to separate the image from surrounding elements */
+    margin-top: 10px;
+  }
+
+  .hero-left .info-text {
+    margin-top: 20%; /* Adjust this value to achieve the desired spacing */
+    font-size: 30px;
+    color:#292075;
+  }
+  

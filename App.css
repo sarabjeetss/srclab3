@@ -1,0 +1,203 @@
+.logo-ctl{
+  width: 120px;
+  height: 70px;
+}
+.logoname{
+  color:00B5#292075;
+  font-weight: bold;
+}
+
+.myNav li a{
+color: #0E4677;
+font-size: 20px;
+font-weight: bold;
+padding: 5px;
+}
+
+.myNav li a:hover{
+  color: 00b;
+  }
+
+.hero-left{
+ 
+}
+
+.hero-left h2{
+color: black;
+padding-bottom: 10px;
+padding-top: 100px;
+}
+
+
+.hero-left p{
+  color: black;
+  font-size: 16px;
+  }
+.hero-logo{
+  color: r#292075;
+}
+
+.hero-button{
+  background: #292075;
+  padding: 20px;
+  border: 0px;
+  color:white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.hero-button:hover{
+  background:#f0f0f0(157, 38, 38, 0.949);
+}
+
+.body-content{
+  margin-top: 50px;
+  background-color: rgb(243, 241, 241);
+  padding: 30px;
+  width:400px;
+  border:5px solid white;
+  margin-bottom: 50px;
+  
+}
+
+.footer{
+  text-align: center;
+  background-color: black;
+  color:white;
+  padding: 30px;
+}
+
+
+.loginArea{
+  min-height: 500px;
+}
+.loginBody{
+  margin-top: 200px;
+}
+
+.loginbutton{
+  background-color: #292075;
+  font-size: 20px;
+  color:white;
+  border: 0px;
+  padding: 10px 40px;
+  border-radius: 0px;
+}
+.loginbutton:hover{
+  background-color: black;
+}
+.loginBody input{
+  border-radius: 0px;
+}
+
+.themebutton{
+  background-color: r#292075;
+  padding:10px 40px;
+  margin-right: 10px;
+  border-radius: 0px;
+  border: 0px;
+}
+
+.themebutton:hover{
+  background-color:black;
+ 
+}
+
+.transection-area{
+  min-height: 700px;
+}
+.transection-form input{
+  border-radius: 0px;
+}
+.hero-left img {
+  width: 100%; /* Change to your desired width or set to 100% for full width */
+  height: 40px; 
+}
+.transaction-table {
+  border-collapse: solid #0b0b0b;
+  width: 100%;
+}
+ 
+.transaction-table th,
+.transaction-table td {
+  border: 1px solid #0b0b0b;
+  padding: 8px;
+  text-align: left;
+}
+ 
+.transaction-table th {
+  background-color: #100f0f;
+  font-weight: bold;
+}
+ 
+.transaction-table tr:nth-child(even) {
+  background-color: #0f0e0e;
+}
+ 
+.transaction-table tr:hover {
+  background-color: #0e0e0e;
+}
+ 
+.transaction-table th,
+.transaction-table td:first-child {
+  text-align: center;
+}
+ 
+.transaction-table td:last-child {
+  text-align: right;
+}
+
+/* Add these styles to your existing CSS file, e.g., App.css */
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+body > .container {
+  flex: 1;
+}
+
+footer {
+  background: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+}
+
+/* Add these styles to your existing CSS file, e.g., App.css */
+
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.container {
+  flex: 1;
+}
+
+footer {
+  background: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  margin-top: auto;
+}
